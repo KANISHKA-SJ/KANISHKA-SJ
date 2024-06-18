@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <title>Task4</title>
+    <style>
+      .custom-bullets {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+      }
+      .custom-bullets li {
+        margin: 10px;
+        padding-left: 35px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 25px 25px;
+      }
+      .custom-bullets .wrk {
+        background-image: url("wrk.png");
+      }
+      .custom-bullets .getus {
+        background-image: url("getus.png");
+      }
+      .custom-bullets .mail {
+        background-image: url("mailus.png");
+      }
+      p {
+        padding-left: 50px;
+        padding-right: 30%;
+        padding-top: 5px;
+      }
+      .nav {
+        background-color: rgb(25, 25, 65);
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 10px;
+      }
+      .navitem:hover {
+        color: rgb(255, 191, 0);
+      }
+      .image3 {
+        background-image: url("./image3.jpeg");
+        background-repeat: no-repeat;
+        position: relative;
+        width: 1455px;
+        height: 500px;
+        background-size: 1480px 500px;
+        opacity: 0.8;
+      }
+      .image3::before {
+        opacity: 0.1;
+        z-index: 1;
+      }
+      .image3 div {
+        text-align: center;
+        padding-top: 100px;
+        padding-left: 20%;
+        color: white;
+        font-size: 50px;
+      }
+      .icon {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+        margin-left: 25px;
+      }
+      .nav-link:hover {
+        color: rgb(255, 191, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-warning">
+      <div class="d-flex bg-warning align-items-center">
+        <p class="display-3"><b>Buliderz</b></p>
+        <ul class="custom-bullets ms-4 px-5">
+          <li class="wrk px-4">opening hours<br />Mon-Fri,8:00-9:00</li>
+          <li class="getus px-4">get us<br />+0123456789</li>
+          <li class="mail px-4">email us<br />info@builderz.com</li>
+        </ul>
+      </div>
+      <div class="nav d-flex text-white px-5">
+        <li class="nav-item px-2">
+          <a class="nav-link text-white" href="#HOME">HOME</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link text-white" href="#ABOUT">ABOUT</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link text-white" href="#SERVICE">SERVICE</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link text-white" href="#TEAM">TEAM</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link text-white" href="#PROJECT">PROJECT</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link text-white" href="#PAGES">PAGES</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link text-white" href="#CONTACT">CONTACT</a>
+        </li>
+      </div>
+    </div>
+    <div class="image3">
+      <div>
+        <p>We Are Professional</p>
+        <p>
+          <b><b>For Your Dream Project</b></b>
+        </p>
+        <p>
+          <button
+            class="bt"
+            style="
+              background-color: transparent;
+              color: white;
+              border: 2px solid white;
+              width: 200px;
+              height: 50px;
+              font-size: xx-small;
+            "
+          >
+            GET A QUOTE
+          </button>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="icon" style="width: 110%">
+          <div
+            class="card-body d-flex"
+            style="background-color: rgb(25, 25, 65)"
+          >
+            <div>
+              <img class="icon" src="./icon1.png" />
+            </div>
+            <div>
+              <p class="text-warning">
+                <b>Expert worker</b><br />
+                <p class="text-warning">
+                  Experienced and dedicated workers and expert workers to
+                  delivering top-quality and craftsmanship on every project
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="icon" style="width: 110%">
+          <div class="card-body bg-warning d-flex">
+            <div>
+              <img class="icon" src="./icon2.jpg" />
+            </div>
+            <div>
+              <p style="color: rgb(25, 25, 65)">
+                <b>Quality work</b><br />
+                <p style="color: rgb(25, 25, 65)">
+                  Delivering excellence in every build, we transform visions
+                  into reality with precision and expertise
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="icon" style="width: 100%">
+          <div
+            class="card-body d-flex"
+            style="background-color: rgb(25, 25, 65)"
+          >
+            <div>
+              <img class="icon" src="./icon3.png" />
+             
+            </div>
+            <div>
+              <p class="text-warning">
+                <b>24/7 Support</b><br />
+                <p class="text-warning">
+                  We're here for you 24/7 to support Reach out anytime, day or
+                  night, for expert builder assistance!
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
